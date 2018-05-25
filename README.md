@@ -1,6 +1,6 @@
 # Career-Guidance
 Career Guidance Responsive Website 
-Tecnology Used:
+Technology Used:
     HMTL5
     CSS3
     Javascript
