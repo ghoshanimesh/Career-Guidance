@@ -1,0 +1,223 @@
+/********************************Universal***********************/
+.anchor{
+  display: block;
+  height: 111px; /*same height as header*/
+  margin-top: -111px; /*same height as header*/
+  visibility: hidden;
+}
+.anchor-before{
+  display: block;
+  height: 110px; 
+}
+.btn-my, .btn-my:visited, .btn-my:hover, .btn-my:focus, .btn-my:active{
+    background: #00c6ff;
+}
+.font-20{
+    font-size: 20px;
+}
+/*****************************************Home*************************/
+/**********Hero*************/
+#button:hover{
+    background-color: #33b5e5;
+}
+#button{
+    border-radius: 100px !important;
+}
+section.hero h1 {
+  padding: 0;
+  color: #fff !important;
+}
+/* Owl Carousel */
+.owl-dots{
+    position: relative;
+    transform: translateY(-45px);
+}
+.owl-theme .owl-nav [class*=owl-]{
+    background: rgba(255,255,255,0);
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: rgba(255,255,255,0);
+}
+/*Know Links*/
+.info{
+    margin-top: 1em;
+}
+#button:hover{
+    color: white !important;
+}
+/*Cards*/
+.cardscolor{
+    background: linear-gradient(#00c6ff, #0072ff);
+}
+/*Statistics*/
+.text-custom{
+    font-family: IM Fell Great Primer SC;
+    font-size: 35px;
+}
+.backcolor{
+    background: #0072ff;
+}
+/*Footer*/
+.footer {
+	background: #000C1C;
+	padding:15px 22px;
+}
+ul.social-network {
+	list-style:none;
+	margin-top:20px;	
+	padding:10px;
+	transition: all 0.3s ease-in-out;
+}
+
+ul.social-network li {
+	display:inline;
+	margin: 0 18px;	
+	font-size:25px;	
+}
+
+ul.social-network li a {	
+	color:#FFFFFF;	
+}
+.social-network li:hover .fa-twitter {
+  color: #00abf0;
+}
+.social-network li:hover .fa-facebook {
+  color: #39579a;
+}
+.social-network li:hover .fa-google-plus {
+  color: #eb8984;
+}
+.social-network li:hover .fa-linkedin {
+  color: #007fff; 
+}
+.social-network li:hover .fa-youtube-play {
+  color: #b31217; 
+}
+
+.copyright {
+	margin-top:30px;
+    text-align: right;
+    color:#fff;
+}
+.copyright a {
+	font-weight:600;
+	font-size:12px;
+	text-shadow:none;
+}
+
+
+/*******************About Us Page***********************/
+.para{
+    font-family: Monserrat;
+    font-size: 20px;    
+}
+.text-custom-col{
+    color: #FFF !important;
+}
+/*Member Cards*/
+.social-network-member{	
+	color:#EEE;	
+}
+.social-network-member .fa-facebook:hover{	
+	color:#39579a;	
+}
+.social-network-member .fa-instagram:hover{	
+	color:#d62976;	
+}
+.social-network-member .fa-twitter:hover{	
+	color:#00abf0;	
+}
+.member-name{
+    font-family: Milonga;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+.member-designation{
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/**************************Contact Us**********************/
+.card-back{
+    background-color: #001B3F !important;
+}
+.contact-head-font{
+    font-family: 'Poiret One', cursive;
+}
+/************************Alumini***************************/
+.shadButton ,.shadButton:focus{
+    box-shadow: none;
+}
+.likeColor{
+    color: red;
+}
+.height-img{
+    height: 195px;
+}
+.alumini-text{
+    font-family: Josefin Sans, sans-serif;
+    font-size: 19px;
+}
+/********************Services********************************/
+.register{
+    background-color: #000C1C;
+}
+.timeline-text{
+    font-family: 'Rokkitt', serif;
+    font-size: 30px;
+}
+.custom-btn{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 30%;
+    transform: translate(-5%, 40%);
+}
+/*Very Large desktop */
+@media (min-width: 1200px) and (max-width: 1500px){ 
+    .custom-btn{
+        top: 35%;
+        left: 55%;
+        width: 35%;
+        transform: scale(1.2, 1.2);
+    }
+}
+/* Large desktop */
+@media (min-width: 980px) and (max-width: 1200px){ 
+    .custom-btn{
+        top: 25%;
+        left: 47%;
+        width: 46%;
+        transform: scale(1, 1);
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.custom-btn{
+        top: 25%;
+        left: 37.5%;
+        width: 62.5%;        
+        transform: scale(0.75, 0.75);
+    }
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 767px) { 
+	.custom-btn{
+        top: 15%;
+        left: 40%;
+        width: 62.5%;        
+        transform: scale(0.6, 0.6);
+    }
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.custom-btn{
+        top: -25%;
+        left: 10%;
+        width: 475px;
+        transform: scale(0.35, 0.35);
+    }
+ }
